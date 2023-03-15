@@ -1,0 +1,58 @@
+@import "../main.css";
+.nav, .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper_bg {
+  background: url("./main--background.png") no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding: 20px 90px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+  width: 100px;
+  height: 70px;
+}
+
+.nav {
+  align-items: center;
+  width: 50%;
+}
+.nav__item a {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.nav__item a:hover {
+  color: #7CB93C;
+}
+
+.wrapper_bg .subject {
+  max-width: 630px;
+  margin: 180px auto 0;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.wrapper_bg .subject__title h1 {
+  font-size: calc(40px + 8px);
+  margin-bottom: 15px;
+}
+.wrapper_bg .subject__subtitle p {
+  font-size: calc(17px + 6px);
+  margin-bottom: 35px;
+}
+
+.bth {
+  display: flex;
+  justify-content: center;
+}
+
+.btn--secondary {
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=header.css.map */

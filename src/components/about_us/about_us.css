@@ -1,0 +1,45 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 320px;
+  padding: 0 20px;
+}
+
+.btn--primary, .btn--secondary {
+  width: 165px;
+  border-radius: 30px;
+  background-color: #7CB93C;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.btn--primary a, .btn--secondary a {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.btn--secondary {
+  background-color: #FA4219;
+}
+
+.AboutUs .wrapper {
+  padding: 130px 0;
+  align-items: center;
+}
+.AboutUs .content_wrapper {
+  width: 38%;
+}
+.AboutUs .subject__title {
+  margin-top: 10px;
+}
+.AboutUs .subject__subtitle {
+  min-width: 450px;
+  margin: 10px 0 15px;
+}
+.AboutUs .subject__subtitle p {
+  color: #7B7B7B;
+  line-height: 2em;
+}
+
+/*# sourceMappingURL=about_us.css.map */

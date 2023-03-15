@@ -1,0 +1,81 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 320px;
+  padding: 0 20px;
+}
+
+.btn--primary, .btn--secondary {
+  width: 165px;
+  border-radius: 30px;
+  background-color: #7CB93C;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.btn--primary a, .btn--secondary a {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.btn--secondary {
+  background-color: #FA4219;
+}
+
+.Carousel {
+  background: url("./apth.svg") no-repeat top;
+  background-size: contain;
+}
+.Carousel .content_wrapper {
+  padding: 160px 0 100px;
+  text-align: center;
+}
+.Carousel .subject__title {
+  margin: 10px 0 40px;
+}
+.Carousel .comment {
+  display: none;
+}
+.Carousel .comment__item {
+  background-color: #62902B;
+  border-radius: 10px;
+  padding: 14px 20px;
+  position: relative;
+  max-width: 620px;
+  margin: 0 auto;
+}
+.Carousel .comment__item::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 40px;
+  background-color: #62902B;
+  transform: rotate(135deg);
+  z-index: -1;
+  left: 48%;
+  bottom: -7%;
+}
+.Carousel .comment .comment__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  margin-top: 50px;
+}
+.Carousel .comment .comment__avatar .info {
+  margin-left: 15px;
+}
+.Carousel .comment .comment__avatar .name h3 {
+  font-size: calc(24px);
+}
+.Carousel .comment .comment__avatar .dear p {
+  color: #000000;
+}
+.Carousel #comment_input:checked ~ #comment,
+.Carousel #comment_input2:checked ~ #comment2,
+.Carousel #comment_input3:checked ~ #comment3 {
+  display: block;
+}
+
+/*# sourceMappingURL=carousel.css.map */

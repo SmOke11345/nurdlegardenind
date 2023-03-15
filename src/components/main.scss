@@ -1,0 +1,26 @@
+@import "vartiables";
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 320px;
+  padding: 0 20px;
+}
+
+.btn--primary, .btn--secondary {
+  width: 165px;
+  border-radius: 30px;
+  background-color: $color-primary;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+  a {
+	text-transform: uppercase;
+	font-size: 15px;
+  }
+}
+
+.btn--secondary {
+  background-color: $color-secondary;
+}

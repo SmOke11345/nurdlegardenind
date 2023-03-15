@@ -1,0 +1,30 @@
+@import "../main.scss";
+@import "../vartiables";
+
+.AboutUs {
+
+  .wrapper {
+	padding: 130px 0;
+	align-items: center;
+  }
+
+  .content_wrapper {
+	width: 38%;
+  }
+
+
+  .subject {
+	&__title {
+		margin-top: 10px;
+	}
+
+	&__subtitle {
+	  min-width: 450px;
+	  margin: 10px 0 15px;
+	  p {
+		color: #7B7B7B;
+		line-height: 2em;
+	  }
+	}
+  }
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+form,
+a,
+p,
+ul,
+li,
+span,
+button,
+input {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: #F5F5F5;
+  font-family: "Commissioner", serif;
+  color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 40px;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: #F94A23;
+  font-size: 40px;
+}
+
+h3, h4 {
+  font-size: calc(40px - 22px);
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6em;
+  font-weight: 400;
+}
+
+ul li {
+  list-style: none;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,62 @@
+@import "../main.css";
+@import "../vartiables";
+
+
+.wrapper_bg {
+  background: url("./main--background.png") no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding: 20px 90px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.wrapper {
+  @extend %wrapper;
+}
+
+.logo img {
+  width: 100px;
+  height: 70px;
+}
+
+.nav {
+  @extend %wrapper;
+  align-items: center;
+  width: 50%;
+
+  &__item a {
+	text-transform: uppercase;
+    font-weight: 500;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.wrapper_bg .subject {
+  max-width: 630px;
+  margin: 180px auto 0;
+  padding-bottom: 200px;
+  text-align: center;
+  &__title h1 {
+    font-size: calc(#{$font-h} + 8px);
+    margin-bottom: 15px;
+  }
+  &__subtitle p {
+    font-size: calc(#{$font-p} + 6px);
+    margin-bottom: 35px;
+  }
+}
+
+.bth {
+  display: flex;
+  justify-content: center;
+
+}
+.btn--secondary {
+  margin-left: 15px;
+}
+
+
