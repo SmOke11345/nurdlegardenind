@@ -1,6 +1,5 @@
 @import "../main.css";
-@import "../vartiables";
-
+@import "../variables";
 
 .wrapper_bg {
   background: url("./main--background.png") no-repeat;
@@ -24,14 +23,14 @@
 .nav {
   @extend %wrapper;
   align-items: center;
-  width: 50%;
-
+  width: 750px;
   &__item a {
 	text-transform: uppercase;
-    font-weight: 500;
-    &:hover {
-      color: $color-primary;
-    }
+	font-weight: 500;
+
+	&:hover {
+	  color: $color-primary;
+	}
   }
 }
 
@@ -40,13 +39,15 @@
   margin: 180px auto 0;
   padding-bottom: 200px;
   text-align: center;
+
   &__title h1 {
-    font-size: calc(#{$font-h} + 8px);
-    margin-bottom: 15px;
+	font-size: calc(#{$font-h} + 8px);
+	margin-bottom: 15px;
   }
+
   &__subtitle p {
-    font-size: calc(#{$font-p} + 6px);
-    margin-bottom: 35px;
+	font-size: calc(#{$font-p} + 6px);
+	margin-bottom: 35px;
   }
 }
 
@@ -55,8 +56,16 @@
   justify-content: center;
 
 }
+
 .btn--secondary {
   margin-left: 15px;
 }
 
+
+@media screen and (max-width: 1078px) {
+  .nav {
+    display: none;
+  }
+
+}
 

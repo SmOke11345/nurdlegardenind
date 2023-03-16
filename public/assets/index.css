@@ -47,6 +47,10 @@ h3, h4 {
   color: #000000;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
   color: #FFFFFF;

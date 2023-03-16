@@ -82,5 +82,11 @@
 .OurServices .btn--secondary {
   margin: 0 auto;
 }
+@media screen and (max-width: 1078px) {
+  .OurServices .services {
+    justify-content: center;
+    gap: 20px;
+  }
+}
 
 /*# sourceMappingURL=our_services.css.map */

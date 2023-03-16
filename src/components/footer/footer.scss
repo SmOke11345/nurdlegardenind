@@ -1,0 +1,47 @@
+@import "../main.scss";
+@import "../variables";
+
+.footer {
+  background: url("./background--top.svg") no-repeat top;
+  background-size: contain;
+
+  .content_wrapper:first-child, .nav_footer {
+	margin: 0 auto;
+  }
+
+  .content_wrapper:first-child {
+	width: 206px;
+	padding-top: 110px;
+  }
+
+  .logo_footer img {
+	width: 100%;
+  }
+
+  .icon {
+	display: flex;
+	justify-content: space-between;
+	margin: 21px auto 0;
+	width: 121px;
+  }
+
+  .content_wrapper:nth-child(2) {
+	margin: 50px 0 45px;
+
+	.nav_footer {
+	  width: 80%;
+	  display: flex;
+	  justify-content: space-between;
+	}
+  }
+
+  .content_wrapper:last-child {
+	background-color: $color-primary;
+	.reserved {
+	  padding: 30px 0;
+	  p {
+		text-align: center;
+	  }
+	}
+  }
+}

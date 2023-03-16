@@ -1,0 +1,64 @@
+@import "../main.scss";
+@import "../variables";
+
+
+.Contacts {
+  background: url("./background--img.png") no-repeat;
+  background-size: cover;
+
+  .wrapper {
+	padding: 85px 0;
+  }
+
+  .subject {
+
+	&__name h4 {
+	  color: $text-color;
+	}
+
+	&__subtitle {
+	  margin: 15px 0 38px;
+	  max-width: 320px;
+	}
+  }
+
+  .contact {
+
+	&__item {
+	  display: flex;
+	  align-items: center;
+	  gap: 27px;
+
+	  &:not(:last-child) {
+		margin-bottom: 24px;
+	  }
+	}
+
+	.wrap_text {
+	  &__title p {
+		font-weight: 500;
+		font-size: calc(#{$font-p} + 1px);
+	  }
+
+	  &__subtitle p {
+		color: $color-p;
+		font-size: calc(#{$font-p} - 1px);
+	  }
+	}
+  }
+
+  @media screen and (max-width: 1078px) {
+	.content_wrapper:last-child {
+	  display: none;
+	}
+	.wrapper {
+	  justify-content: center;
+	}
+	.subject {
+	  text-align: center;
+	  &__subtitle {
+		margin: 0 auto;
+	  }
+	}
+  }
+}

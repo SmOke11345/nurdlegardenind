@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&display=swap');
-@import "../../src/components/vartiables";
+@import "../../src/components/variables";
 
 * {
   margin: 0;
@@ -48,6 +48,10 @@ h2 {
 h3, h4 {
   font-size: calc(#{$font-h} - 22px);
   color: #000000;
+}
+
+h4 {
+  text-transform: uppercase;
 }
 
 a {

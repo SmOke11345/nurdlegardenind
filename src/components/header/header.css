@@ -21,7 +21,7 @@
 
 .nav {
   align-items: center;
-  width: 50%;
+  width: 750px;
 }
 .nav__item a {
   text-transform: uppercase;
@@ -53,6 +53,12 @@
 
 .btn--secondary {
   margin-left: 15px;
+}
+
+@media screen and (max-width: 1078px) {
+  .nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

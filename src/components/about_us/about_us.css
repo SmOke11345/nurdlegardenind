@@ -26,20 +26,43 @@
 .AboutUs .wrapper {
   padding: 130px 0;
   align-items: center;
+  flex-wrap: wrap;
 }
 .AboutUs .content_wrapper {
-  width: 38%;
+  width: 390px;
+}
+.AboutUs .content_wrapper.d-none {
+  display: none;
 }
 .AboutUs .subject__title {
   margin-top: 10px;
 }
 .AboutUs .subject__subtitle {
-  min-width: 450px;
   margin: 10px 0 15px;
 }
 .AboutUs .subject__subtitle p {
-  color: #7B7B7B;
+  color: #CFCFCF;
   line-height: 2em;
+}
+@media screen and (max-width: 1078px) {
+  .AboutUs .wrapper {
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .AboutUs .subject {
+    text-align: center;
+  }
+  .AboutUs .subject .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .AboutUs .content_wrapper:last-child {
+    display: none;
+  }
+  .AboutUs .content_wrapper.d-none {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=about_us.css.map */

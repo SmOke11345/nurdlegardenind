@@ -1,30 +1,60 @@
 @import "../main.scss";
-@import "../vartiables";
+@import "../variables";
 
 .AboutUs {
 
   .wrapper {
 	padding: 130px 0;
 	align-items: center;
+	flex-wrap: wrap;
   }
 
   .content_wrapper {
-	width: 38%;
+	width: 390px;
   }
 
+  .content_wrapper.d-none {
+	display: none;
+  }
 
   .subject {
 	&__title {
-		margin-top: 10px;
+	  margin-top: 10px;
 	}
 
 	&__subtitle {
-	  min-width: 450px;
 	  margin: 10px 0 15px;
+
 	  p {
-		color: #7B7B7B;
+		color: $color-p;
 		line-height: 2em;
 	  }
+	}
+  }
+
+  @media screen and (max-width: 1078px) {
+	.wrapper {
+	  justify-content: center;
+	  padding: 50px 0;
+	}
+	.subject {
+	  text-align: center;
+
+	  &__subtitle {
+
+	  }
+
+	  .btn {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+	  }
+	}
+	.content_wrapper:last-child {
+	  display: none;
+	}
+	.content_wrapper.d-none {
+	  display: block;
 	}
   }
 }
